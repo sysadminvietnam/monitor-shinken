@@ -6,7 +6,7 @@ yum install python
 
 Step 2: Install pip for python
 
-curl https://github.com/sysadminvietnam/monitor-shinken/blob/master/get-pip.py | python -
+curl https://raw.github.com/pypa/pip/master/contrib/get-pip.py | python -
 
 Step 3: Add new user on System for Shinken
 
