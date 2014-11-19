@@ -28,6 +28,7 @@ shinken --init
 
 
 shinken install linux-ssh
+
 shinken install webui
 
 then restart services
@@ -44,5 +45,19 @@ install authen password for webgui
 
 shinken install auth-cfg-password
 
+sed -i "s/modules/ modules    auth-cfg-password/g" /etc/shinken/modules/auth_cfg_password.cfg
 
+Step 8:
+
+restart to shinken
+
+/etc/init.d/shinken restart
+
+Step 9: Sigin to Webgui
+
+URL: http://IP.ADD:7767/
+
+user: admin
+
+pass: admin (default)
 
