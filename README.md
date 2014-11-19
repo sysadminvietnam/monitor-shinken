@@ -56,6 +56,8 @@ shinken install auth-cfg-password
 
 sed -i "s/modules/ modules    auth-cfg-password/g" /etc/shinken/modules/auth_cfg_password.cfg
 
+![alt tag](http://i.imgur.com/TJ5OqbD.png)
+
 Step 8:
 
 restart to shinken
