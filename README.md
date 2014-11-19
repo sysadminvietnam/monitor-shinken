@@ -35,6 +35,8 @@ then restart services
 
 /etc/init.d/shinken restart
 
+![Alt text](http://i.imgur.com/YFUfR7I.png "Restart Shinken")
+
 Step 7: Config webgui for shinken
 
 enable webgui on shinken
