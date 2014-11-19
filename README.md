@@ -24,16 +24,19 @@ Step 5: Start shinken
 
 /etc/init.d/shinken start
 
+![alt tag](http://i.imgur.com/JV906Ak.png)
+
 Step 6: You need install some software, the first you must su to shinken user:
 
 su - shinken
 
 shinken --init
 
-
 shinken install linux-ssh
 
 shinken install webui
+
+![alt tag](http://i.imgur.com/gs5qzbW.png)
 
 then restart services
 
